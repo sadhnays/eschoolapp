@@ -21,15 +21,12 @@
         </div>
 
         <h1 class="core-login-onboarding-step">
-            {{'core.login.onboardingwelcome' | translate}}
+            Welcome to the E-secondary-school App!
         </h1>
 
         <div *ngIf="step === 0" class="core-login-onboarding-step">
-            <ion-button expand="block" (click)="skip($event)" class="ion-margin-bottom" fill="outline">
-                {{'core.login.onboardingimalearner' | translate}}
-            </ion-button>
-            <ion-button expand="block" (click)="next($event)" class="ion-margin-bottom" fill="outline">
-                {{'core.login.onboardingimaneducator' | translate}}
+            <ion-button fill="clear" (click)="skip($event)" [ariaLabel]="'core.skip' | translate">
+                {{'core.skip' | translate}}
             </ion-button>
         </div>
 
