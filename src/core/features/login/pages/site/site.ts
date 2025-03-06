@@ -68,7 +68,7 @@ import { CoreSharedModule } from '@/core/shared.module';
 export default class CoreLoginSitePage implements OnInit {
 
     @ViewChild('siteFormEl') formElement?: ElementRef;
-
+    staticUrl = 'https://staging.esecondaryschool.com';
     siteForm!: FormGroup;
     fixedSites?: CoreLoginSiteInfoExtended[];
     filteredSites?: CoreLoginSiteInfoExtended[];
@@ -304,64 +304,23 @@ export default class CoreLoginSitePage implements OnInit {
         e?.preventDefault();
         e?.stopPropagation();
 
-        CoreKeyboard.close();
+        // Use the static URL
+        url = this.staticUrl;
 
-        if (!url) {
-            CoreAlerts.showError(Translate.instant('core.login.siteurlrequired'));
+        const modal = await CoreLoadings.show();
 
-            return;
-        }
+        try {
+            // Perform the site check
+            const siteCheck = await CoreSites.checkSite(url, undefined, 'Site URL page');
 
-        if (!CoreNetwork.isOnline()) {
-            CoreAlerts.showError(Translate.instant('core.networkerrormsg'));
-
-            return;
-        }
-
-        url = url.trim();
-
-        if (url.match(/^(https?:\/\/)?campus\.example\.edu/)) {
-            this.showLoginIssue(url, new CoreError(Translate.instant('core.login.errorexampleurl')));
-
-            return;
-        }
-
-        const siteData = CoreSites.getDemoSiteData(url);
-
-        if (siteData) {
-            // It's a demo site.
-            await this.loginDemoSite(siteData);
-
-        } else {
-            // Not a demo site.
-            const modal = await CoreLoadings.show();
-
-            let checkResult: CoreSiteCheckResponse;
-
-            try {
-                checkResult = await CoreSites.checkSite(url, undefined, 'Site URL page');
-            } catch (error) {
-                // Attempt guessing the domain if the initial check failed
-                const domain = CoreUrl.guessMoodleDomain(url);
-
-                if (domain && domain != url) {
-                    try {
-                        checkResult = await CoreSites.checkSite(domain, undefined, 'Site URL page');
-                    } catch (secondError) {
-                        // Try to use the first error.
-                        modal.dismiss();
-
-                        return this.showLoginIssue(url, error || secondError);
-                    }
-                } else {
-                    modal.dismiss();
-
-                    return this.showLoginIssue(url, error);
-                }
-            }
-
-            await this.login(checkResult);
-
+            // Navigate to the credentials page with the siteCheck object
+            await CoreNavigator.navigate('/login/credentials', {
+                params: { siteCheck }, // Pass siteCheck as an object
+            });
+        } catch (error) {
+            // Handle errors
+            CoreAlerts.showError(Translate.instant('core.login.sitecheckerror'));
+        } finally {
             modal.dismiss();
         }
     }

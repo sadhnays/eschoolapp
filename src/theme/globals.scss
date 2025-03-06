@@ -4,9 +4,117 @@
  * Place here the different files you should import to use global variables.
  */
 
-$font-path: "../assets/fonts";
-$assets-path: "../assets";
+ $font-path: "../assets/fonts";
+ $assets-path: "../assets";
 
-@import "./helpers/helpers.scss";
-@import "./globals.custom.scss";
-@import "./globals.variables.scss";
+ @import "./helpers/helpers.scss";
+ @import "./globals.custom.scss";
+ @import "./globals.variables.scss";
+
+ /* Change all icons to the login color (#3880ff) */
+ ion-icon {
+     color: #3880ff;
+   }
+
+   /* Alternatively, target specific icons by class or type */
+   .dashboard-icon {
+     color: #3880ff;
+   }
+
+   .calendar-icon {
+     color: #3880ff;
+
+   }
+   :root {
+     --login-color: #3880ff;
+   }
+
+   ion-icon {
+     color: var(--login-color);
+   }
+   /* Dashboard text color */
+ .dashboard {
+     color: #3880ff;
+   }
+
+   /* Timeline text color */
+   .timeline {
+     color: #3880ff;
+   }
+   .item-heading{
+     color: #3880ff;
+   }
+
+   /* Buttons text color */
+
+   /* Headings text color */
+   h1, h2, h3, h4, h5, h6 {
+     color: #3880ff;
+   }
+
+   /* Paragraphs text color */
+   p {
+     color: #3880ff;
+   }
+ /* Change "My courses" text color */
+ .my-courses-text {
+     color: #3880ff;
+   }
+
+   /* Change "Search courses" text color */
+   .search-courses-text {
+     color: #3880ff;
+   }
+   .item-heading {
+     color: #3880ff;
+   }
+
+ #alert-1-msg{
+
+     color: #3880ff;
+
+ }
+ .alert-checkbox-label{
+     color: #3880ff;
+ }
+ .alert-button-inner {
+
+     color: #3880ff;
+
+ }
+ /* Change the color of the alert checkbox label */
+ .alert-checkbox-label.sc-ion-alert-md {
+     color: #3880ff; /* Your desired color */
+   }
+ /* Change text color for all elements in the user account section */
+ .user-account-section {
+     color: #3880ff; /* Your desired color */
+   }
+
+   /* Change text color for specific elements */
+   .user-account-section h1,
+   .user-account-section p,
+   .user-account-section a {
+     color: #3880ff; /* Your desired color */
+   }
+
+   ion-item.item > ion-label .item-heading, ion-item-divider.item > ion-label .item-heading, ion-item .in-item .item-heading {
+     margin-left: 0;
+     margin-right: 0;
+     margin-top: 2px;
+     margin-bottom: 2px;
+     font-size: 1rem;
+     font-weight: normal;
+     text-overflow: inherit;
+     overflow: inherit;
+     white-space: inherit;
+     color: #3880ff;
+ }
+ .icon-inner{
+     color: #3880ff;
+ }
+
+ ion-item.item > ion-icon[slot] {
+     color: #3880ff;
+ }
+ /* Custom button color */

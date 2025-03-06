@@ -118,3 +118,8 @@
 .core-login-default-icon {
     filter: grayscale(100%);
 }
+/* site.scss */
+ion-content {
+    --background: #f8f9fa !important;
+    background: #f8f9fa !important;
+  }
