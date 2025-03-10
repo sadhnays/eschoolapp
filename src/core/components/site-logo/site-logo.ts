@@ -114,7 +114,12 @@ export class CoreSiteLogoComponent implements OnInit, OnDestroy {
         this.logoError = false;
 
         if (this.logoType === 'top' && site.getShowTopLogo() === 'hidden') {
-            this.showLogo = false;
+           // Get the public config to avoid race conditions when retrieving the logo.
+           const siteConfig = await CorePromiseUtils.ignoreErrors(site.getPublicConfig());
+
+           this.siteLogo = this.logoType === 'top'
+               ? site.getTopLogoUrl(siteConfig)
+               : site.getLogoUrl(siteConfig);
         } else {
             // Get the public config to avoid race conditions when retrieving the logo.
             const siteConfig = await CorePromiseUtils.ignoreErrors(site.getPublicConfig());
