@@ -11,91 +11,89 @@
  @import "./globals.custom.scss";
  @import "./globals.variables.scss";
 
- /* Change all icons to the login color (#3880ff) */
+ /* Change all icons to the login color (#3484FA) */
  ion-icon {
-     color: #3880ff;
+     color: #F81B66;
    }
 
    /* Alternatively, target specific icons by class or type */
    .dashboard-icon {
-     color: #3880ff;
+     color: #3484FA;
    }
 
    .calendar-icon {
-     color: #3880ff;
+     color: #3484FA;
 
    }
-   :root {
-     --login-color: #3880ff;
-   }
+  //  :root {
+  //    --login-color: #3484FA;
+  //  }
 
-   ion-icon {
-     color: var(--login-color);
-   }
+
    /* Dashboard text color */
  .dashboard {
-     color: #3880ff;
+     color: #3484FA;
    }
 
    /* Timeline text color */
    .timeline {
-     color: #3880ff;
+     color: #3484FA;
    }
    .item-heading{
-     color: #3880ff;
+     color: #3484FA;
    }
 
    /* Buttons text color */
 
    /* Headings text color */
    h1, h2, h3, h4, h5, h6 {
-     color: #3880ff;
+     color: #F81B66;
    }
 
    /* Paragraphs text color */
    p {
-     color: #3880ff;
+     color: #3484FA;
    }
  /* Change "My courses" text color */
  .my-courses-text {
-     color: #3880ff;
+     color: #3484FA;
    }
 
    /* Change "Search courses" text color */
    .search-courses-text {
-     color: #3880ff;
+     color: #3484FA;
    }
    .item-heading {
-     color: #3880ff;
+     color: #3484FA;
    }
 
  #alert-1-msg{
 
-     color: #3880ff;
+     color: #3484FA;
 
  }
  .alert-checkbox-label{
-     color: #3880ff;
+     color: #3484FA;
  }
  .alert-button-inner {
 
-     color: #3880ff;
+     color: #F81B66;
 
  }
  /* Change the color of the alert checkbox label */
  .alert-checkbox-label.sc-ion-alert-md {
-     color: #3880ff; /* Your desired color */
+     color: #F81B66; /* Your desired color */
    }
  /* Change text color for all elements in the user account section */
  .user-account-section {
-     color: #3880ff; /* Your desired color */
+     color: #F81B66; /* Your desired color */
    }
 
    /* Change text color for specific elements */
    .user-account-section h1,
    .user-account-section p,
    .user-account-section a {
-     color: #3880ff; /* Your desired color */
+     color: #3484FA; /* Your desired color */
    }
 
    ion-item.item > ion-label .item-heading, ion-item-divider.item > ion-label .item-heading, ion-item .in-item .item-heading {
@@ -108,13 +106,13 @@
      text-overflow: inherit;
      overflow: inherit;
      white-space: inherit;
-     color: #3880ff;
+     color: #3484FA;
  }
  .icon-inner{
-     color: #3880ff;
+     color: #F81B66;
  }
 
  ion-item.item > ion-icon[slot] {
-     color: #3880ff;
+     color: #F81B66;
  }
  /* Custom button color */
