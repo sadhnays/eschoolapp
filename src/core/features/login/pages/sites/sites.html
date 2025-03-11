@@ -5,7 +5,7 @@
         </ion-buttons>
 
         <ion-title>
-            <h1>{{ 'core.login.accounts' | translate }}</h1>
+            <h1 style="color: #3484FA;">{{ 'core.login.accounts' | translate }}</h1>
         </ion-title>
 
         <ion-buttons slot="end">
@@ -21,23 +21,14 @@
 </ion-header>
 <ion-content class="limited-width">
     <core-loading [hideUntil]="loaded">
-        <core-sites-list [accountsList]="accountsList" [sitesClickable]="true" (onSiteClicked)="login($event)">
-            <ng-template #siteItem let-site="site" let-isCurrentSite="isCurrentSite">
-                <ion-badge slot="end" *ngIf="!showDelete && site.badge" @coreShowHideAnimation>
-                    <span aria-hidden="true">{{site.badge}}</span>
-                    <span class="sr-only">{{ 'core.login.sitebadgedescription' | translate:{ count: site.badge }
-                        }}</span>
-                </ion-badge>
-                <ion-button *ngIf="showDelete" slot="end" fill="clear" color="danger" (click)="deleteSite($event, site)"
-                    [ariaLabel]="'core.login.removeaccount' | translate" [@coreSlideInOut]="'fromRight'">
-                    <ion-icon name="fas-trash" slot="icon-only" aria-hidden="true" />
-                </ion-button>
-            </ng-template>
-        </core-sites-list>
+        <div class="ion-text-center ion-padding ion-margin-bottom core-login-site-logo">
+            <img src="assets/img/welcome.png" class="avatar-full login-logo" role="presentation"
+                alt="Students Learning">
+        </div>
     </core-loading>
     <ion-fab slot="fixed" core-fab vertical="bottom" horizontal="end">
         <ion-fab-button (click)="add()" [attr.aria-label]="'core.login.add' | translate">
-            <ion-icon name="fas-plus" aria-hidden="true" />
+            <ion-icon name="fas-plus" aria-hidden="true" style="color:#F81B66;" />
             <span class="sr-only">{{ 'core.login.add' | translate }}</span>
         </ion-fab-button>
     </ion-fab>

@@ -1,0 +1,499 @@
+[33mcommit 9761dcf023664eaca03e8b0baa6c62113a61a4b1[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m
+Author: sadhnays <ysadhna443@gmail.com>
+Date:   Thu Mar 6 20:42:15 2025 +0530
+
+    add login change
+
+[33mcommit c7f18c8b3f365ea931a8edc66c8595223ed4d16f[m
+Author: sadhnays <ysadhna443@gmail.com>
+Date:   Thu Mar 6 19:52:46 2025 +0530
+
+    add login page and flas img dashborde
+
+[33mcommit fb885dc4c7c304524d3c8659da8dffef630ba13c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: sadhnays <ysadhna443@gmail.com>
+Date:   Thu Mar 6 10:36:30 2025 +0530
+
+    first commit
+
+[33mcommit 716c7e73cf2fecd0d545e11630e12d7816c38246[m
+Author: sadhnays <ysadhna443@gmail.com>
+Date:   Thu Mar 6 10:35:32 2025 +0530
+
+    first commit
+
+[33mcommit 428c8334beb05a3cddfa65e90bfe0292009abd83[m
+Author: sadhnays <ysadhna443@gmail.com>
+Date:   Thu Mar 6 10:34:46 2025 +0530
+
+    first commit
+
+[33mcommit 57b81d2f1bf562b74dc268f6d1bb37899ee44e89[m
+Author: sadhnays <ysadhna443@gmail.com>
+Date:   Thu Mar 6 10:33:22 2025 +0530
+
+    first commit
+
+[33mcommit 8d2b942d6dfa7aaa6295d7243f2da8ddfcb5ad22[m
+Merge: 5cd10923a 0afd1f265
+Author: Dani Palou <dani@moodle.com>
+Date:   Wed Mar 5 08:20:01 2025 +0100
+
+    Merge pull request #4334 from crazyserver/MOBILE-4777
+    
+    MOBILE-4777 bbb: Update icon for 4.4 onwards
+
+[33mcommit 0afd1f265b42df6d1fe5744c5a3f9073a537e5ec[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Tue Mar 4 15:42:01 2025 +0100
+
+    MOBILE-4777 bbb: Update icon for 4.4 onwards
+
+[33mcommit 5cd10923a0fc071aa6e0c0e6d934a4159656afdb[m
+Merge: 08d71c827 f4a8ff08a
+Author: Dani Palou <dani@moodle.com>
+Date:   Mon Mar 3 15:10:02 2025 +0100
+
+    Merge pull request #4333 from crazyserver/MOBILE-3063
+    
+    MOBILE-3063 reading: Wait collapsible header to be loaded before enable
+
+[33mcommit f4a8ff08a5713048e81cfa5d3cfeb50ab6faadc7[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Mon Mar 3 14:48:38 2025 +0100
+
+    MOBILE-3063 reading: Wait collapsible header to be loaded before enable
+
+[33mcommit 08d71c827843cf7b1e048ee15d805e0e3a517407[m
+Merge: b4e24b46f 34e6ff81e
+Author: Pau Ferrer Ocaña <crazyserver@users.noreply.github.com>
+Date:   Mon Mar 3 11:10:22 2025 +0100
+
+    Merge pull request #4332 from dpalou/MOBILE-4665
+    
+    Mobile 4665
+
+[33mcommit 34e6ff81eeaa394fed8f6f57571c155c433cbebc[m
+Author: Dani Palou <dani@moodle.com>
+Date:   Fri Feb 28 11:54:17 2025 +0100
+
+    MOBILE-4665 core: Remove native code to obtain location
+
+[33mcommit 835b6822fc39300eb43ec0c56d3ff4d5db6c55c0[m
+Author: Dani Palou <dani@moodle.com>
+Date:   Fri Feb 28 08:35:54 2025 +0100
+
+    MOBILE-4665 core: Deprecate and stop using Geolocation
+
+[33mcommit b4e24b46f7f2700aeda918e2fee655f8d85f8c98[m
+Merge: 9b18375a2 f9aeb2c1b
+Author: Dani Palou <dani@moodle.com>
+Date:   Mon Mar 3 08:17:45 2025 +0100
+
+    Merge pull request #4331 from albertgasset/MOBILE-4656
+    
+    Mobile 4656
+
+[33mcommit 9b18375a2c64d1635c55c2780938c6e15350d9f3[m
+Merge: 693801c02 75957de64
+Author: Dani Palou <dani@moodle.com>
+Date:   Mon Mar 3 08:09:09 2025 +0100
+
+    Merge pull request #4328 from crazyserver/MOBILE-4668
+    
+    MOBILE-4668 course: Change unsupported and disabled module message
+
+[33mcommit 693801c022f16c32b38f3991d5b80644871e3842[m
+Merge: 0d81a5094 f6435b3b0
+Author: Pau Ferrer Ocaña <crazyserver@users.noreply.github.com>
+Date:   Fri Feb 28 15:12:19 2025 +0100
+
+    Merge pull request #4329 from dpalou/MOBILE-4653
+    
+    MOBILE-4653 behat: Fix competency behats in 4.5- due to MDL-84609
+
+[33mcommit f9aeb2c1b196547acab4a6c68ecf7e8317a09d69[m
+Author: Albert Gasset <albert.gasset@moodle.com>
+Date:   Fri Feb 28 13:00:22 2025 +0100
+
+    MOBILE-4656 h5p: Remove unused template line
+
+[33mcommit ca35dd03f6b6aea723fb9f45536a23722defa2da[m
+Author: Albert Gasset <albert.gasset@moodle.com>
+Date:   Fri Feb 28 13:00:22 2025 +0100
+
+    MOBILE-4656 h5p: Auto-play embedded H5P packages when configured
+
+[33mcommit f6435b3b0860758175ecfdc7ae79c467671500e8[m
+Author: Dani Palou <dani@moodle.com>
+Date:   Fri Feb 28 09:03:22 2025 +0100
+
+    MOBILE-4653 behat: Fix competency behats in 4.5- due to MDL-84609
+
+[33mcommit 2422bf52ee29d53a116f8672ea4d7889421bed27[m
+Author: Dani Palou <dani@moodle.com>
+Date:   Thu Feb 27 17:40:53 2025 +0100
+
+    MOBILE-4665 core: Create buildMapsURL instead of buildAddressURL
+
+[33mcommit 75957de64734ac02759ed2745663cf93ac074de6[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Thu Feb 27 13:07:58 2025 +0100
+
+    MOBILE-4668 course: Change unsupported and disabled module message
+
+[33mcommit 0d81a5094b0d7210a12d106aa7f914a28d17c970[m
+Merge: 08ccfcaf9 00bb4c4c2
+Author: Dani Palou <dani@moodle.com>
+Date:   Thu Feb 27 11:20:52 2025 +0100
+
+    Merge pull request #4327 from crazyserver/MOBILE-4773
+    
+    Mobile 4773
+
+[33mcommit 00bb4c4c2ebd7b0906d56de0e884af1308ddceda[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Thu Feb 27 10:58:41 2025 +0100
+
+    MOBILE-4549 compile: Deprecate moment.js usage for site plugins
+
+[33mcommit 4f149ae109f875632a0163c9d83e91371ac1b1af[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Wed Feb 26 12:12:00 2025 +0100
+
+    MOBILE-4773 data: Add data constants
+
+[33mcommit f59812fe2bd9b20a6135e80b24692f188e3bc4dd[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Tue Feb 25 16:27:22 2025 +0100
+
+    MOBILE-4773 data: Ensure seconds on offline entries
+
+[33mcommit 4080bf1dc9e4038fcc4524779b73213477d696ed[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Tue Feb 25 16:14:28 2025 +0100
+
+    MOBILE-4773 time: Move some functions to CoreTime
+
+[33mcommit 08ccfcaf9a48aa94b5a0ed89c6acc14a2dc3bf50[m
+Merge: 3a06ceb5f 0c887ae23
+Author: Pau Ferrer Ocaña <crazyserver@users.noreply.github.com>
+Date:   Wed Feb 26 14:30:54 2025 +0100
+
+    Merge pull request #4326 from dpalou/MOBILE-4775
+    
+    MOBILE-4775 siteplugins: Filter titles in plugins
+
+[33mcommit 0c887ae234c9205f4f887c281e28ead19515d14e[m
+Author: Dani Palou <dani@moodle.com>
+Date:   Wed Feb 26 09:23:55 2025 +0100
+
+    MOBILE-4775 siteplugins: Filter titles in plugins
+
+[33mcommit 3a06ceb5f8da2a9afe0b3be9d93a9600ac51263d[m
+Merge: 9dc9bb6b0 02c29ed69
+Author: Dani Palou <dani@moodle.com>
+Date:   Wed Feb 26 07:59:57 2025 +0100
+
+    Merge pull request #4325 from albertgasset/MOBILE-4653-behat
+    
+    MOBILE-4653 behat: Fix failure when opening PDF files
+
+[33mcommit 02c29ed69e97fb261a31224cb48b017e7b4b215b[m
+Author: Albert Gasset <albert.gasset@moodle.com>
+Date:   Tue Feb 25 16:47:54 2025 +0100
+
+    MOBILE-4653 behat: Fix failure when opening PDF files
+
+[33mcommit 9dc9bb6b0e0cfbaf1c0124b63e79b7d57c6cc42d[m
+Merge: 2af5ddf69 ea08c7899
+Author: Dani Palou <dani@moodle.com>
+Date:   Tue Feb 25 16:28:01 2025 +0100
+
+    Merge pull request #4324 from crazyserver/MOBILE-4653
+    
+    MOBILE-4653 chore: Remove direct circular dependancies on addons
+
+[33mcommit ea08c789963e655215c86cd9de5dc12ce765b8d5[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Tue Feb 25 14:02:21 2025 +0100
+
+    MOBILE-4653 chore: Remove direct circular dependancies on addons
+
+[33mcommit 2af5ddf6998f511c48fd0ddf9384f716b7b9698e[m
+Merge: c77faf2ea d0173a343
+Author: Dani Palou <dani@moodle.com>
+Date:   Tue Feb 25 13:32:49 2025 +0100
+
+    Merge pull request #4319 from crazyserver/MOBILE-3671
+    
+    Mobile 3671 Assignment previous attempts
+
+[33mcommit d0173a343349add9e54b7e5310c61dd63e6885b1[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Tue Feb 25 12:44:22 2025 +0100
+
+    MOBILE-4653 cron: Reduce minimum cron interval to 4 minutes
+
+[33mcommit e48337b279ea70e58f754b1b15a6160b68f38ba2[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Tue Feb 25 12:14:39 2025 +0100
+
+    MOBILE-4653 core: Let ignore Errors capture firstValueFrom errors.
+
+[33mcommit 08db14244334a12219456e44ca631746cd9b2655[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Thu Feb 20 17:09:02 2025 +0100
+
+    MOBILE-3671 assign: Add some behat tests for previous attempts
+
+[33mcommit af94a161e26a20364c8b9f1659c09ad4b5d72ff6[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Thu Feb 20 16:56:58 2025 +0100
+
+    MOBILE-3671 assign: Adapt to new management on feedback
+
+[33mcommit c77faf2eaff897594ae5c9afcf72d1c23d9c02ee[m
+Merge: 5479ae73b 305241947
+Author: Alfonso Salces <38917140+alfonso-salces@users.noreply.github.com>
+Date:   Tue Feb 25 11:41:08 2025 +0100
+
+    Merge pull request #4322 from crazyserver/MOBILE-4593
+    
+    Mobile 4593 bootstrap popovers
+
+[33mcommit 61b986c0c688e7353aa1e00db90ec513057b89f5[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Wed Feb 19 09:15:08 2025 +0100
+
+    MOBILE-3671 assign: Remove ASSIGN_ATTEMPT_REOPEN_METHOD_NONE usage
+    
+    Deprecated on MDL-80741
+
+[33mcommit 35ef90792e0fad3ae905dfbda6b79271ab3f4adf[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Tue Feb 18 11:51:04 2025 +0100
+
+    MOBILE-3671 assign: Move constants
+
+[33mcommit d9a26019121ae12d15e47e44214104d3136ad37b[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Fri Feb 14 13:54:45 2025 +0100
+
+    MOBILE-3671 assign: Add previous attempts
+
+[33mcommit 3085debf66144246d0477d573f9a4e85ccdada75[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Mon Feb 24 17:09:47 2025 +0100
+
+    MOBILE-3671 assign: Create new grading modal
+
+[33mcommit 5790abfb0ad953640054cda70bdc6241ab9ce365[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Thu Feb 13 22:40:17 2025 +0100
+
+    MOBILE-3671 assign: Remove tabs on submissions
+
+[33mcommit 5479ae73bfb7332a464ab084282d00ec832a9ecf[m
+Merge: a84d9f5ce fbe23c496
+Author: Pau Ferrer Ocaña <crazyserver@users.noreply.github.com>
+Date:   Mon Feb 24 15:41:30 2025 +0100
+
+    Merge pull request #4323 from dpalou/MOBILE-4653
+    
+    MOBILE-4653 behat: Fix some failures in BBB tests
+
+[33mcommit fbe23c496f8809dc9e9d63c2fb5d14bc4724ce30[m
+Author: Dani Palou <dani@moodle.com>
+Date:   Mon Feb 24 13:27:58 2025 +0100
+
+    MOBILE-4653 behat: Fix some failures in BBB tests
+
+[33mcommit a84d9f5ce43551097f7c361f2dacb9e5385d4ae1[m
+Merge: 3c380c638 5290d7abc
+Author: Pau Ferrer Ocaña <crazyserver@users.noreply.github.com>
+Date:   Thu Feb 20 15:21:28 2025 +0100
+
+    Merge pull request #4321 from dpalou/MOBILE-3733
+    
+    MOBILE-3733 core: Sanitize offline data in format-text
+
+[33mcommit 3052419477357701cc5cdf0d53894f521b4b014a[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Thu Feb 20 12:29:35 2025 +0100
+
+    MOBILE-4593 quiz: Use new bootstrap popovers on quiz
+
+[33mcommit dbf126280dfbe29c07a99073b05b11db9b8ab9e7[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Thu Feb 20 09:42:25 2025 +0100
+
+    MOBILE-4593 bootstrap: Support BS4 and 5 tooltips and popovers
+
+[33mcommit 5290d7abc535423001d59f277a04910577957f26[m
+Author: Dani Palou <dani@moodle.com>
+Date:   Wed Feb 19 10:36:58 2025 +0100
+
+    MOBILE-3733 core: Sanitize offline data in format-text
+
+[33mcommit 3c380c638efd573bf49858a4daf20c7e38a5af5b[m
+Merge: 034e7f48a 6d262fc61
+Author: Pau Ferrer Ocaña <crazyserver@users.noreply.github.com>
+Date:   Tue Feb 18 13:08:04 2025 +0100
+
+    Merge pull request #4317 from alfonso-salces/MOBILE-4713
+    
+    MOBILE-4713 config: Add collapsibleItemsExpanded config
+
+[33mcommit 034e7f48aaff1439b8d8e6da1f353faabbf54ac1[m
+Merge: 9b57776b8 854fbac26
+Author: Pau Ferrer Ocaña <crazyserver@users.noreply.github.com>
+Date:   Tue Feb 18 13:04:30 2025 +0100
+
+    Merge pull request #4318 from dpalou/MOBILE-4671
+    
+    MOBILE-4671 ios: Fix JS error caused by getLastIntent in iOS
+
+[33mcommit 854fbac265f65abba7db23b65edb382933494b99[m
+Author: Dani Palou <dani@moodle.com>
+Date:   Mon Feb 17 08:57:02 2025 +0100
+
+    MOBILE-4671 ios: Fix JS error caused by getLastIntent in iOS
+
+[33mcommit 6d262fc612ff5ef7ba7286a97c7fea7b9fb00946[m
+Author: Alfonso Salces <alfonso.salces@moodle.com>
+Date:   Fri Feb 14 13:04:01 2025 +0100
+
+    MOBILE-4713 config: Add collapsibleItemsExpanded config
+
+[33mcommit 9b57776b82d4286066742bcecb881bedafcbaf94[m
+Merge: 83359f393 4a2d568fd
+Author: Dani Palou <dani@moodle.com>
+Date:   Wed Feb 12 15:52:33 2025 +0100
+
+    Merge pull request #4312 from crazyserver/MOBILE-4653
+    
+    Mobile 4653 fixes
+
+[33mcommit 4a2d568fd3e79edd467bd185f0bfa377fcd4914f[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Wed Feb 12 13:33:04 2025 +0100
+
+    MOBILE-4653 home: Fix initial page and manage hidden tabs
+
+[33mcommit 83359f3933385b6cb079fb79be96f5f5e5cda0bc[m
+Merge: 038654cdf 2b697cccb
+Author: Pau Ferrer Ocaña <crazyserver@users.noreply.github.com>
+Date:   Wed Feb 12 13:48:46 2025 +0100
+
+    Merge pull request #4316 from dpalou/MOBILE-4763
+    
+    MOBILE-4763 notifications: Fix mobiletext undefined in notification page
+
+[33mcommit 512e9e6220797fdb69d24cd04ba80898cc7be99b[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Tue Feb 11 13:57:22 2025 +0100
+
+    MOBILE-4653 folder: Show all folders als cards
+
+[33mcommit 30212e0bc576f960eb04c9bbde58203dbcce9d78[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Tue Feb 11 10:01:03 2025 +0100
+
+    MOBILE-4728 ionic: Show background on no-title header pages
+
+[33mcommit da8a44980cb2548be0c2b4d220708840483b0834[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Mon Feb 10 16:40:51 2025 +0100
+
+    MOBILE-4653 core: Handle load and error on avatar and site logo
+
+[33mcommit 2b697cccb112d7d1975c00089c7e7684193a884a[m
+Author: Dani Palou <dani@moodle.com>
+Date:   Wed Feb 12 10:35:29 2025 +0100
+
+    MOBILE-4763 notifications: Fix mobiletext undefined in notification page
+
+[33mcommit a11ac5c427596d2be9243c473e94971b029426b6[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Mon Feb 10 14:45:02 2025 +0100
+
+    MOBILE-4653 chore: Change core-external-content param src to url
+
+[33mcommit 038654cdf851c135e533a468ad79387196602789[m
+Merge: d22a64ab8 5af45dc66
+Author: Dani Palou <dani@moodle.com>
+Date:   Tue Feb 11 15:23:54 2025 +0100
+
+    Merge pull request #4311 from crazyserver/MOBILE-4759
+    
+    MOBILE-4759 chore: Bootstrap the application using standalone APIs
+
+[33mcommit d22a64ab88219ce53b6d71e75b507e40b6a1a227[m
+Merge: 89ad349c0 1580e9879
+Author: Pau Ferrer Ocaña <crazyserver@users.noreply.github.com>
+Date:   Tue Feb 11 13:03:52 2025 +0100
+
+    Merge pull request #4315 from dpalou/MOBILE-4653
+    
+    MOBILE-4653 quiz: Fix correctness feedback with Bootstrap 5
+
+[33mcommit 89ad349c03caa693849f1508e3ba968e8215749c[m
+Merge: 7a3aa5e76 6654d6d7d
+Author: Pau Ferrer Ocaña <crazyserver@users.noreply.github.com>
+Date:   Tue Feb 11 13:02:02 2025 +0100
+
+    Merge pull request #4314 from dpalou/MOBILE-4707
+    
+    MOBILE-4707 quiz: Leave review page if not allowed to review
+
+[33mcommit 1580e9879938482480b5e199bcc6a4da3145a698[m
+Author: Dani Palou <dani@moodle.com>
+Date:   Tue Feb 11 12:30:46 2025 +0100
+
+    MOBILE-4653 quiz: Fix correctness feedback with Bootstrap 5
+
+[33mcommit 5af45dc66bd3905c9eda517930f98b41871fc945[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Tue Feb 11 11:31:49 2025 +0100
+
+    MOBILE-4759 quiz: Lazy load components on quiz access rules handlers
+
+[33mcommit 1ed3675b9cae5d7feb8a85ff9fa9db0604234b40[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Tue Feb 11 11:18:00 2025 +0100
+
+    MOBILE-4759 blocks: Lazy load block components on handlers
+
+[33mcommit 040922232233c1ad703d0f59827a8891536cc3d2[m
+Author: Pau Ferrer Ocaña <crazyserver@gmail.com>
+Date:   Tue Feb 4 15:07:07 2025 +0100
+
+    MOBILE-4759 chore: Bootstrap the application using standalone APIs
+
+[33mcommit 6654d6d7dd7223b07c4321798411b67c5f7b3105[m
+Author: Dani Palou <dani@moodle.com>
+Date:   Tue Feb 11 08:46:20 2025 +0100
+
+    MOBILE-4707 quiz: Delete attempt review cache if WS throws an error
+
+[33mcommit 99f2dfb93431270dc672f448135a2eb7e429e5ba[m
+Author: Dani Palou <dani@moodle.com>
+Date:   Tue Feb 11 08:30:35 2025 +0100
+
+    MOBILE-4707 quiz: Leave review page if not allowed to review
+
+[33mcommit 7a3aa5e763efcfabafd3d1258657029b57b040c1[m
+Merge: 6519ebf03 8896bf993
+Author: Pau Ferrer Ocaña <crazyserver@users.noreply.github.com>
+Date:   Mon Feb 10 09:44:04 2025 +0100
+
+    Merge pull request #4310 from dpalou/MOBILE-4759
+    
+    Mobile 4759
+
+[33mcommit 8896bf99351e234a199ab38cbe55414a07a109e5[m
+Author: Dani Palou <dani@moodle.com>
+Date:   Fri Feb 7 15:39:10 2025 +0100
+
+    MOBILE-4759 core: Remove most modules for components and directives

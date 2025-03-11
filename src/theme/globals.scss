@@ -12,9 +12,7 @@
  @import "./globals.variables.scss";
 
  /* Change all icons to the login color (#3484FA) */
- ion-icon {
-     color: #F81B66;
-   }
+
 
    /* Alternatively, target specific icons by class or type */
    .dashboard-icon {
@@ -46,10 +44,12 @@
    /* Buttons text color */
 
    /* Headings text color */
-   h1, h2, h3, h4, h5, h6 {
+   h1, h3, h4, h5, h6 {
      color: #F81B66;
    }
-
+h2{
+  color: #3484FA;
+}
    /* Paragraphs text color */
    p {
      color: #3484FA;
@@ -108,11 +108,5 @@
      white-space: inherit;
      color: #3484FA;
  }
- .icon-inner{
-     color: #F81B66;
- }
 
- ion-item.item > ion-icon[slot] {
-     color: #F81B66;
- }
  /* Custom button color */

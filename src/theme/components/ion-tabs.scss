@@ -7,3 +7,6 @@ ion-tab-button.ion-focused::part(native) {
 ion-tab-bar > ion-button.ion-focused {
     @include core-focus-inset-outline-internal();
 }
+ ion-icon {
+  color: #3484FA;
+}
